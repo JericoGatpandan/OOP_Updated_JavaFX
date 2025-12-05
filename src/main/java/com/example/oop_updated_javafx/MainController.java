@@ -56,14 +56,13 @@ public class MainController {
         }
     }
 
-    private ObservableList<User> data;
     public void buildTable() {
        DatabaseConnection connectNow = new DatabaseConnection();
        Connection connectDB = connectNow.getConnection();
 
        String UserViewQuery = "SELECT name, email FROM Users";
 
-       data = FXCollections.observableArrayList();
+        ObservableList<User> data = FXCollections.observableArrayList();
 
        try {
            ResultSet resultSet = connectDB.createStatement().executeQuery(UserViewQuery);

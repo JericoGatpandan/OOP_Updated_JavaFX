@@ -2,16 +2,16 @@ package com.example.oop_updated_javafx.model;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ObservableValue;
-import javafx.scene.control.TableView;
 
 public class User {
-    private SimpleStringProperty name;
-    private SimpleStringProperty email;
+    private final SimpleStringProperty name;
+    private final SimpleStringProperty email;
 
     public User(User user) {
         this.name = new SimpleStringProperty(user.getName());
         this.email = new SimpleStringProperty(user.getEmail());
     }
+
     public User(final String name, final String email) {
         this.name = new SimpleStringProperty(name);
         this.email = new SimpleStringProperty(email);
