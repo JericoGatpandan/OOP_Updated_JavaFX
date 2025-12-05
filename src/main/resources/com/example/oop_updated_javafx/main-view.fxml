@@ -26,11 +26,13 @@
                   <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                </columnResizePolicy>
             </TableView>
-            <HBox alignment="CENTER" prefHeight="29.0" prefWidth="200.0" spacing="20.0">
+            <HBox alignment="CENTER" prefHeight="29.0" prefWidth="200.0" spacing="10.0">
                <children>
                   <TextField fx:id="nameField" promptText="Name" />
                   <TextField fx:id="emailField" promptText="Email" />
-                  <Button fx:id="AddUserButton" mnemonicParsing="false" text="Add" onAction="#addUser"/>
+                  <Button fx:id="AddUserButton" mnemonicParsing="false" text="Add" onAction="#onAddUser" />
+                  <Button fx:id="EditUserButton" mnemonicParsing="false" text="Edit" onAction="#onEditUser" />
+                  <Button fx:id="DeleteUserButton" mnemonicParsing="false" text="Delete" onAction="#onDeleteUser" />
                </children>
             </HBox>
          </children>

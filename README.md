@@ -17,6 +17,7 @@
 |-----------------------------------------------------------|----------------------------------------------------------------|
 | ![Before](src/main/resources/Screenshots/Screenshot1.png) | ![After](src/main/resources/Screenshots/Screenshot1-after.png) |
 | ![Before](src/main/resources/Screenshots/Screenshot2.png) | ![After](src/main/resources/Screenshots/Screenshot2-after.png) |
+| ![Before](src/main/resources/Screenshots/Screenshot3.png) | ![After](src/main/resources/Screenshots/Screenshot3-after.png) |
 
 ### Scene Builder View
 
