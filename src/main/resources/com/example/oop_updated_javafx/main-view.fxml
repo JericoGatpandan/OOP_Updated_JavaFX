@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<BorderPane prefHeight="289.0" prefWidth="485.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_updated_javafx.HelloController">
+<BorderPane prefHeight="289.0" prefWidth="485.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_updated_javafx.MainController">
    <center>
       <VBox alignment="CENTER" spacing="20.0">
           <padding>
@@ -30,7 +30,7 @@
                <children>
                   <TextField fx:id="nameField" promptText="Name" />
                   <TextField fx:id="emailField" promptText="Email" />
-                  <Button fx:id="AddUserButton" mnemonicParsing="false" text="Button" />
+                  <Button fx:id="AddUserButton" mnemonicParsing="false" text="Add" onAction="#addUser"/>
                </children>
             </HBox>
          </children>
